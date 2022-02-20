@@ -1,2 +1,2 @@
 # cse210-04
-Inheritance: Teach One Anothe
+Inheritance: Teach One Another
