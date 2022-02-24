@@ -1,12 +1,12 @@
 from game.shared.color import Color
 from game.shared.point import Point
-  
+
+
 class Actor:
     """A visible, moveable thing that participates in the game. 
     
     The responsibility of Actor is to keep track of its appearance, position and velocity in 2d 
     space.
-
     Attributes:
         _text (string): The text to display
         _font_size (int): The font size to use.
@@ -16,10 +16,10 @@ class Actor:
     """
 
     def __init__(self):
-        """Constructs a new Actor."""  
+        """Constructs a new Actor."""
         self._text = ""
         self._font_size = 15
-        self._color = Color(55, 155, 255)
+        self._color = Color(255, 255, 255)
         self._position = Point(0, 0)
         self._velocity = Point(0, 0)
 
