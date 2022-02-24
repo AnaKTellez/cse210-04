@@ -8,7 +8,6 @@ class VideoService:
 
     def __init__(self, caption, width, height, cell_size, frame_rate, debug=False):
         """Constructs a new VideoService using the specified debug mode.
-
         Args:
             debug (bool): whether or not to draw in debug mode.
         """
@@ -60,7 +59,6 @@ class VideoService:
 
     def get_cell_size(self):
         """Gets the video screen's cell size.
-
         Returns:
             Grid: The video screen's cell size.
         """
@@ -68,7 +66,6 @@ class VideoService:
 
     def get_height(self):
         """Gets the video screen's height.
-
         Returns:
             Grid: The video screen's height.
         """
@@ -76,7 +73,6 @@ class VideoService:
 
     def get_width(self):
         """Gets the video screen's width.
-
         Returns:
             Grid: The video screen's width.
         """
