@@ -124,3 +124,5 @@ class Director:
         self._video_service.draw_actor(score)
         
         self._video_service.flush_buffer()
+
+        
