@@ -10,7 +10,7 @@ class Stone(Actor):
         _message (string): A short description about the artifact.
     """
     def __init__(self):
-        super().__init__()
+        super().__init__()  
         self._points = 0
 
     def set_points(self, points):

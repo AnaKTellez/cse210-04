@@ -21,8 +21,7 @@ CELL_SIZE = 15
 FONT_SIZE = 20
 COLS = 60
 ROWS = 40
-CAPTION = "Greed"
-WHITE = Color(255, 255, 255)
+CAPTION = "Greed"   
 RED = Color(255, 0, 0)
 
 def main():
